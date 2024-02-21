@@ -1,0 +1,257 @@
+body{
+   background-color: papayawhip;
+}
+header{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.logo{
+   height: 30px;
+   position: relative;
+   top: 2px;
+}
+.cli{
+   position: relative;
+   bottom: 15px;  
+}
+
+.logo-container{
+   display: flex;
+}
+
+li{
+   list-style: none;
+   margin-left: 14px;
+   text-transform: capitalize;
+   font-weight: bolder;
+   color: purple;
+   font-size: 16px;
+}
+nav ul{
+   display: flex;
+}
+
+ button{
+   border: none;
+   background-color: transparent;
+}
+
+.auth{
+   margin-top: 15px;
+   text-transform: capitalize;
+}
+
+.auth button{
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 14px;
+}
+.menu{
+   background-color: purple;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 6px;
+   padding-right: 6px;
+   border-radius: 5px;
+}
+
+.sign{
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 14px;
+   position: relative;
+   top: 16px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.menu{
+   display: none;
+   background-color: rgb(129, 8, 129);
+}
+button{
+   cursor: pointer;
+   height: fit-content;
+}
+
+.beyond{
+   text-transform: capitalize;
+   font-size: 26px;
+   
+}
+   
+
+@media screen and (min-width:1000px) {
+   .hero{
+      display: flex;
+   
+      }
+    
+      
+.career{
+ grid-template-columns: repeat(3,33%);
+
+}
+   }
+   
+
+
+@media screen and (max-width:825px) {
+   nav{
+      display: none;
+     
+   }
+   @media screen and (max-width:690px) {
+      body{
+    
+      }
+      .career{
+         display: grid;
+         grid-template-columns: repeat(2,45%);
+         justify-content: center;
+      }
+.career div{
+   margin-top: 1px;
+   margin-left: 1px;
+   margin-right: 5px;
+         }
+      }
+.hero{
+   display: block;
+}
+}
+
+
+
+.auth{
+   display: none;
+}
+
+.menu{
+   display: block;
+   font-weight: bolder;
+   font-size: 16px;
+   position: relative;
+   top: 10px;
+}
+   .hero{
+      text-align: center;
+   }
+
+
+.started{
+   text-transform: uppercase;
+   color: white;
+   background-color: purple;
+   border-top-right-radius: 12px;
+   border-top-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+   padding: 10px 16px;
+}
+
+a{
+   text-decoration: none;
+   text-transform: capitalize;
+   font-weight: bold;
+   color: purple;
+}
+.hero{
+
+   justify-content: space-between;
+}
+
+.hero img{
+   height: 70%;
+   margin: auto;
+}
+
+.services img{
+   height: 20px;
+   background-color: purple;
+   padding: 6px;
+   border-radius: 50%;
+}
+
+.service header{
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 400;
+}
+
+
+.career{
+   text-transform: capitalize;
+   font-weight: 400;
+}
+.sevices{
+   text-align: center;
+}
+
+.career div{
+   background-color: rgb(234, 211, 172);
+   line-height: 18px;
+   text-align: center;
+   margin-top: 1px;
+   margin-left: 2px;
+   margin-bottom: 20px;
+   
+}
+.sign{
+   display: block;
+   left: 100px;
+}
+.happy{
+   text-align: center;
+   text-transform: capitalize;
+}
+.chuchu{
+   text-align: center;
+   text-transform: capitalize;
+}
+.you{
+   height: 30px;
+   position: relative;
+   top: 2px;
+}
+.above{
+   position: relative;
+   bottom: 50px;  
+   left:35px;
+   
+}
+.nice{
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 18px;
+   position: relative;
+   bottom: 90px;
+   display: flex;
+   justify-content: space-evenly;
+   left: 30px;
+   color: blue;
+}
+
+
+.img-link{
+   height: auto;
+   width: 20px;
+}
+.go{
+   height: 30px;
+   display: flex;
+   top: 2px;
+}
+.to{
+   height: 30px;
+   display: flex;
+   top: 2px;
+}
+.mummy{
+   height: 30px;
+   display: flex;
+   left: 70px;
+}
+.rose{
+   display: flex;
+   
+}
